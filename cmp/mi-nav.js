@@ -30,7 +30,7 @@ class MiNav extends HTMLElement {
    * @param {import(
       "../lib/tiposFire.js").User}
       usu */
-      async cambiaUsuario(usu) {
+      async cambiaAsegurado(usu) {
         if (usu && usu.email) {
           let html = "";
           const roles =
